@@ -17,7 +17,11 @@ function Main() {
 }
 
 const root = ReactDOM.createRoot(document.querySelector("#app"));
-root.render(<Main />);
+root.render(
+  <React.StrictMode>
+    <Main />
+  </React.StrictMode>
+);
 
 if (module.hot) {
   module.hot.accept();
