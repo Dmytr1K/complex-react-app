@@ -19,7 +19,7 @@ function Footer() {
       <p className="m-0">
         Copyright &copy;
         <span> </span>
-        2022
+        {new Date().getFullYear()}
         <span> </span>
         <a href="/" className="text-muted">
           ComplexApp
